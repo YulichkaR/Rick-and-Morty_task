@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "//Rick-and-Morty_task/static/css/main.a3ba8807.css",
+    "main.js": "//Rick-and-Morty_task/static/js/main.5b050bc4.js",
+    "static/js/787.8dbf608d.chunk.js": "//Rick-and-Morty_task/static/js/787.8dbf608d.chunk.js",
+    "static/media/logo.png": "//Rick-and-Morty_task/static/media/logo.df73b7db546a5a50f92d.png",
+    "index.html": "//Rick-and-Morty_task/index.html",
+    "main.a3ba8807.css.map": "//Rick-and-Morty_task/static/css/main.a3ba8807.css.map",
+    "main.5b050bc4.js.map": "//Rick-and-Morty_task/static/js/main.5b050bc4.js.map",
+    "787.8dbf608d.chunk.js.map": "//Rick-and-Morty_task/static/js/787.8dbf608d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3ba8807.css",
+    "static/js/main.5b050bc4.js"
+  ]
+}

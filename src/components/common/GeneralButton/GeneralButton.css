@@ -1,0 +1,8 @@
+.Button {
+  @apply font-sans border border-gray-400 border-solid font-normal text-lg text-gray-700 uppercase tracking-wide leading-none border-opacity-100 hover:bg-gray-200 active:bg-gray-700 m-1 p-2;
+  color: #575756;
+}
+
+button.active {
+  @apply bg-gray-900 text-white;
+}

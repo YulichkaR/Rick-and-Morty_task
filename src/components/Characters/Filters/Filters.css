@@ -1,0 +1,7 @@
+.filters > div {
+  @apply ml-6 flex flex-wrap;
+}
+
+.filters__title {
+  @apply font-bold text-xl ml-6 mb-0 py-4;
+}

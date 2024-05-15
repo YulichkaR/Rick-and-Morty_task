@@ -1,0 +1,14 @@
+.cards {
+  @apply grid grid-cols-4 gap-x-5 gap-y-40 flex-1;
+}
+
+.container {
+  @apply flex flex-row;
+}
+
+.utils {
+  max-width: 300px;
+}
+.error {
+  @apply mx-auto text-4xl;
+}

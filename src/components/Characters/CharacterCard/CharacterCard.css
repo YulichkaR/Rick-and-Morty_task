@@ -1,0 +1,57 @@
+.flip-card {
+  @apply bg-transparent justify-self-center;
+  width: 300px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  @apply relative w-full h-full text-center transition-transform;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Apply shadow directly */
+  transform-style: preserve-3d;
+  transition-duration: 0.6s;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  @apply absolute w-full h-full;
+  -webkit-backface-visibility: hidden; /* Hide the backface for webkit browsers */
+  backface-visibility: hidden; /* Hide the backface for modern browsers */
+}
+
+.flip-card-front {
+  @apply bg-gray-300 text-black;
+}
+
+.flip-card-front > h2 {
+  @apply pt-6 text-lg;
+}
+
+.flip-card-back {
+  @apply bg-gray-700 text-white;
+  transform: rotateY(180deg); /* Apply the rotateY transformation directly */
+}
+
+.ribbon {
+  @apply w-40 text-lg py-1 px-4 absolute top-3 right-3 text-center bg-white text-black;
+}
+
+.alive {
+  @apply bg-green-500;
+}
+
+.dead {
+  @apply bg-red-500;
+}
+
+.unknown {
+  @apply bg-gray-300;
+}
+
+.content {
+  @apply h-full flex flex-col justify-center items-center;
+}
